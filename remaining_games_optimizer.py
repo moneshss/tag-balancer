@@ -42,7 +42,7 @@ RESULTS_FILE = "all_results.json"
 
 EXPLODING_KITTENS_PARAMS = {
     "nCardsPerPlayer":     [3, 5, 7, 10, 15],
-    "nopeOwnCards":        ["true", "false"],
+    "nopeOwnCards":        [True, False],
     "ATTACK_count":        [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     "SKIP_count":          [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
     "FAVOR_count":         [1, 2, 3, 4, 5, 6, 7, 8, 9, 10],
@@ -59,7 +59,7 @@ EXPLODING_KITTENS_PARAMS = {
 
 DOMINION_PARAMS = {
     "HAND_SIZE":                     [3, 5, 7, 10],
-    "PILES_EXHAUSED_FOR_GAME_END":   [1, 3, 5, 7, 10],
+    "PILES_EXHAUSTED_FOR_GAME_END":  [1, 3, 5, 7, 10],
     "KINGDOM_CARDS_OF_EACH_TYPE":    [5, 10, 15, 20],
     "CURSE_CARDS_PER_PLAYER":        [5, 10, 15, 20],
     "STARTING_COPPER":               [3, 5, 7, 10, 15],
@@ -372,12 +372,25 @@ def show_best():
 # ---------------------------------------------------------------------------
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description="Remaining Games Optimizer")
-    parser.add_argument("command", choices=["random", "random-all", "optimize", "best"])
+    parser.add_argument("command", choices=["random", "random-all", "optimize", "best", "test"])
     parser.add_argument("--game", choices=["ExplodingKittens", "Dominion", "Wonders7"])
     parser.add_argument("--trials", type=int, default=20)
     args = parser.parse_args()
 
-    if args.command == "random-all":
+    if args.command == "test":
+        print("=== Testing all 3 games with 1 trial each ===\n")
+        for game in ["ExplodingKittens", "Dominion", "Wonders7"]:
+            params = random_params(game)
+            print(f"  {game}: ", end="", flush=True)
+            result = submit_run(game, params)
+            score = result.get("score", 0)
+            if score > 0:
+                print(f"OK! score={score:.1f}")
+            else:
+                print(f"FAILED — {result}")
+        print("\n  If all 3 say OK, you're good to run random-all.\n")
+
+    elif args.command == "random-all":
         start = time.time()
         for game in ["ExplodingKittens", "Dominion", "Wonders7"]:
             random_search(game, args.trials)
