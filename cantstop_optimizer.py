@@ -58,14 +58,17 @@ def submit_run(params: dict, run_type: str = "fast") -> dict:
     """Send a parameter set to the local API and return the response."""
     body = {
         "game": GAME,
-        "params": {k: str(v) for k, v in params.items()},
+        "params": params,
         "run_type": run_type,
     }
     headers = {"Content-Type": "application/json"}
 
     try:
         resp = requests.post(API_URL, json=body, headers=headers, timeout=300)
-        resp.raise_for_status()
+        if resp.status_code != 200:
+            error_body = resp.text
+            print(f"[ERROR] {resp.status_code}: {error_body}")
+            return {"score": 0, "error": error_body}
         return resp.json()
     except requests.exceptions.ConnectionError:
         print("\n[ERROR] Can't connect to the local API.")
