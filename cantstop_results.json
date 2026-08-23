@@ -998,5 +998,605 @@
     "score": 903.5087719298245,
     "run_type": "fast",
     "timestamp": "2026-08-23 17:04:42"
+  },
+  {
+    "params": {
+      "TWO_MAX": 5,
+      "THREE_MAX": 2,
+      "FOUR_MAX": 7,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 13,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 6,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 5,
+      "COLUMNS_TO_WIN": 4,
+      "MARKERS": 2
+    },
+    "score": 871.8323564436469,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 17:37:08"
+  },
+  {
+    "params": {
+      "TWO_MAX": 4,
+      "THREE_MAX": 2,
+      "FOUR_MAX": 7,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 13,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 6,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 5,
+      "COLUMNS_TO_WIN": 4,
+      "MARKERS": 2
+    },
+    "score": 773.3918195579485,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 17:41:04"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 5,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 11,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 957.1150075157716,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 17:46:06"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 7,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 11,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 9,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 890.3508794237996,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 17:51:18"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 5,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 957.1150075157716,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 17:56:30"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 5,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 890.3508794237996,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:01:31"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 13,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 6,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 4,
+      "MARKERS": 2
+    },
+    "score": 898.635477582846,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:04:43"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 7,
+      "FIVE_MAX": 8,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 11,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 9,
+      "TEN_MAX": 5,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 2,
+      "COLUMNS_TO_WIN": 3,
+      "MARKERS": 2
+    },
+    "score": 890.3508794237996,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:07:50"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 926.9005792182788,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:13:31"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 871.8323664823239,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:19:14"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 930.3118964152494,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:24:31"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 8,
+      "SIX_MAX": 9,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 12,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 895.2241637321011,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:29:34"
+  },
+  {
+    "params": {
+      "TWO_MAX": 3,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 5,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 11,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 8,
+      "TEN_MAX": 5,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 2,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 898.635477582846,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:35:03"
+  },
+  {
+    "params": {
+      "TWO_MAX": 3,
+      "THREE_MAX": 4,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 3,
+      "MARKERS": 3
+    },
+    "score": 930.3118830303467,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:37:23"
+  },
+  {
+    "params": {
+      "TWO_MAX": 3,
+      "THREE_MAX": 4,
+      "FOUR_MAX": 5,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 3,
+      "MARKERS": 3
+    },
+    "score": 845.0292353044476,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:39:42"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 11,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 2,
+      "COLUMNS_TO_WIN": 3,
+      "MARKERS": 3
+    },
+    "score": 893.7621832358675,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:42:09"
+  },
+  {
+    "params": {
+      "TWO_MAX": 3,
+      "THREE_MAX": 4,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 10,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 12,
+      "NINE_MAX": 8,
+      "TEN_MAX": 5,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 862.0857677496897,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:47:55"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 6,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 11,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 2,
+      "COLUMNS_TO_WIN": 3,
+      "MARKERS": 2
+    },
+    "score": 895.2241737707782,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:50:49"
+  },
+  {
+    "params": {
+      "TWO_MAX": 3,
+      "THREE_MAX": 4,
+      "FOUR_MAX": 7,
+      "FIVE_MAX": 10,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 11,
+      "EIGHT_MAX": 10,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 3
+    },
+    "score": 835.2826466104905,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:55:31"
+  },
+  {
+    "params": {
+      "TWO_MAX": 4,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 8,
+      "SIX_MAX": 9,
+      "SEVEN_MAX": 13,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 6,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 4,
+      "MARKERS": 2
+    },
+    "score": 925.4385886833682,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 18:59:25"
+  },
+  {
+    "params": {
+      "TWO_MAX": 3,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 6,
+      "TEN_MAX": 5,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 4,
+      "MARKERS": 2
+    },
+    "score": 898.635477582846,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 19:03:24"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 9,
+      "SEVEN_MAX": 13,
+      "EIGHT_MAX": 12,
+      "NINE_MAX": 8,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 3,
+      "MARKERS": 2
+    },
+    "score": 895.2241603858754,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 19:05:54"
+  },
+  {
+    "params": {
+      "TWO_MAX": 3,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 8,
+      "SIX_MAX": 9,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 10,
+      "NINE_MAX": 7,
+      "TEN_MAX": 5,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 3,
+      "COLUMNS_TO_WIN": 4,
+      "MARKERS": 2
+    },
+    "score": 863.5477582846004,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 19:09:56"
+  },
+  {
+    "params": {
+      "TWO_MAX": 3,
+      "THREE_MAX": 4,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 10,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 5,
+      "MARKERS": 2
+    },
+    "score": 903.5087719298245,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 19:14:37"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 4,
+      "FOUR_MAX": 5,
+      "FIVE_MAX": 8,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 11,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 6,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 5,
+      "MARKERS": 3
+    },
+    "score": 813.3528332031726,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 19:18:21"
+  },
+  {
+    "params": {
+      "TWO_MAX": 3,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 8,
+      "SEVEN_MAX": 14,
+      "EIGHT_MAX": 12,
+      "NINE_MAX": 8,
+      "TEN_MAX": 6,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 2,
+      "COLUMNS_TO_WIN": 2,
+      "MARKERS": 2
+    },
+    "score": 871.8323564436469,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 19:20:20"
+  },
+  {
+    "params": {
+      "TWO_MAX": 4,
+      "THREE_MAX": 3,
+      "FOUR_MAX": 7,
+      "FIVE_MAX": 10,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 9,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 2,
+      "COLUMNS_TO_WIN": 3,
+      "MARKERS": 2
+    },
+    "score": 800.1949273122449,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 19:22:54"
+  },
+  {
+    "params": {
+      "TWO_MAX": 1,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 11,
+      "SEVEN_MAX": 13,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 8,
+      "TEN_MAX": 5,
+      "ELEVEN_MAX": 3,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 3
+    },
+    "score": 845.0292353044476,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 19:28:04"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 6,
+      "FOUR_MAX": 5,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 9,
+      "SEVEN_MAX": 13,
+      "EIGHT_MAX": 12,
+      "NINE_MAX": 6,
+      "TEN_MAX": 7,
+      "ELEVEN_MAX": 4,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 5,
+      "MARKERS": 2
+    },
+    "score": 840.1559476499204,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 19:33:00"
+  },
+  {
+    "params": {
+      "TWO_MAX": 2,
+      "THREE_MAX": 5,
+      "FOUR_MAX": 8,
+      "FIVE_MAX": 9,
+      "SIX_MAX": 10,
+      "SEVEN_MAX": 12,
+      "EIGHT_MAX": 11,
+      "NINE_MAX": 7,
+      "TEN_MAX": 4,
+      "ELEVEN_MAX": 2,
+      "TWELVE_MAX": 1,
+      "COLUMNS_TO_WIN": 6,
+      "MARKERS": 2
+    },
+    "score": 930.3118964152494,
+    "run_type": "fast",
+    "timestamp": "2026-08-23 19:38:58"
   }
 ]
