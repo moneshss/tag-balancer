@@ -64,7 +64,7 @@ def submit_run(params: dict, run_type: str = "fast") -> dict:
     headers = {"Content-Type": "application/json"}
 
     try:
-        resp = requests.post(API_URL, json=body, headers=headers, timeout=300)
+        resp = requests.post(API_URL, json=body, headers=headers, timeout=600)
         if resp.status_code != 200:
             error_body = resp.text
             print(f"[ERROR] {resp.status_code}: {error_body}")
@@ -146,7 +146,43 @@ def optimize(n_trials: int):
     # Suppress Optuna's verbose logging
     optuna.logging.set_verbosity(optuna.logging.WARNING)
 
+    study = optuna.create_study(direction="maximize", study_name="cantstop")
+
+    # Seed with previous results so Optuna knows what's been tried
+    past = load_results()
+    seeded = 0
+    for r in past:
+        if r["score"] > 0 and r["run_type"] == "fast":
+            trial_params = {}
+            for name, values in PARAMS.items():
+                val = r["params"].get(name)
+                if val in values:
+                    trial_params[name] = values.index(val)
+                else:
+                    break
+            else:
+                study.enqueue_trial(trial_params)
+                seeded += 1
+    if seeded:
+        # Run the seeded trials silently to teach Optuna
+        def seed_objective(trial):
+            params = {}
+            for name, values in PARAMS.items():
+                idx = trial.suggest_int(name, 0, len(values) - 1)
+                params[name] = values[idx]
+            # Look up the score from past results
+            for r in past:
+                if all(r["params"].get(k) == v for k, v in params.items()):
+                    return r["score"]
+            return 0.0
+        study.optimize(seed_objective, n_trials=seeded)
+        print(f"  Seeded Optuna with {seeded} previous results.")
+        print(f"  Best from history: {study.best_value:.1f}\n")
+
+    best_so_far = study.best_value if study.trials else 0
+
     def objective(trial: optuna.Trial) -> float:
+        nonlocal best_so_far
         params = {}
         for name, values in PARAMS.items():
             idx = trial.suggest_int(name, 0, len(values) - 1)
@@ -155,10 +191,17 @@ def optimize(n_trials: int):
         result = submit_run(params)
         score = result.get("score", 0)
         save_result(params, score, "fast")
+
+        n = trial.number + 1 - seeded
+        if score > best_so_far:
+            best_so_far = score
+            print(f"  [{n:3d}/{n_trials}]  score: {score:7.1f}  best: {best_so_far:7.1f}  *NEW BEST*")
+        else:
+            print(f"  [{n:3d}/{n_trials}]  score: {score:7.1f}  best: {best_so_far:7.1f}")
+
         return score
 
-    study = optuna.create_study(direction="maximize", study_name="cantstop")
-    study.optimize(objective, n_trials=n_trials, show_progress_bar=True)
+    study.optimize(objective, n_trials=n_trials)
 
     # Decode best params back to actual values
     best = {}
