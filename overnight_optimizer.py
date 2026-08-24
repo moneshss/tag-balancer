@@ -121,7 +121,7 @@ GAME_PARAMS = {
 # API / Storage (same as before)
 # ---------------------------------------------------------------------------
 def submit_run(game, params, run_type="fast"):
-    body = {"game": game, "params": params, "run_type": run_type}
+    body = {"game": game, "params": params, "run_type": run_type, "timeout": 300000}
     try:
         resp = requests.post(API_URL, json=body,
                              headers={"Content-Type": "application/json"},
