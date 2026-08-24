@@ -23,9 +23,10 @@ RESULTS_FILE = "all_results.json"
 
 # How many Optuna trials per game
 TRIALS = {
-    "ExplodingKittens": 40,  # Most room to improve (879 -> ???)
-    "Dominion": 25,          # Already at 974, less room
-    "Wonders7": 25,          # Already at 983, less room
+    "ExplodingKittens": 50,  # Most room to improve (879 -> ???) ~2.5h
+    "Dominion": 30,          # Already at 974 ~1.5h
+    "Wonders7": 30,          # Already at 983 ~1h
+    "CantStop": 25,          # Already at 957, slow game ~2h
 }
 
 # ---------------------------------------------------------------------------
@@ -110,10 +111,27 @@ WONDERS7_ALL_WONDERS = [
     "ThePyramidsOfGiza",
 ]
 
+CANTSTOP_PARAMS = {
+    "TWO_MAX":        [1, 2, 3, 4, 5],
+    "THREE_MAX":      [2, 3, 4, 5, 6],
+    "FOUR_MAX":       [4, 5, 6, 7, 8],
+    "FIVE_MAX":       [6, 7, 8, 9, 10],
+    "SIX_MAX":        [8, 9, 10, 11, 12],
+    "SEVEN_MAX":      [10, 11, 12, 13, 14],
+    "EIGHT_MAX":      [8, 9, 10, 11, 12],
+    "NINE_MAX":       [6, 7, 8, 9, 10],
+    "TEN_MAX":        [4, 5, 6, 7, 8],
+    "ELEVEN_MAX":     [2, 3, 4, 5, 6],
+    "TWELVE_MAX":     [1, 2, 3, 4, 5],
+    "COLUMNS_TO_WIN": [2, 3, 4, 5, 6],
+    "MARKERS":        [2, 3, 4, 5, 6],
+}
+
 GAME_PARAMS = {
     "ExplodingKittens": EXPLODING_KITTENS_PARAMS,
     "Dominion": DOMINION_PARAMS,
     "Wonders7": WONDERS7_PARAMS,
+    "CantStop": CANTSTOP_PARAMS,
 }
 
 
@@ -177,6 +195,16 @@ def optimize_game(game, n_trials):
     # Seed with previous results
     past = [r for r in load_results()
             if r["game"] == game and r["score"] > 0 and r["run_type"] == "fast"]
+
+    # Also load from cantstop_results.json if optimizing CantStop
+    if game == "CantStop":
+        cs_path = Path("cantstop_results.json")
+        if cs_path.exists():
+            cs_data = json.loads(cs_path.read_text())
+            for r in cs_data:
+                if r.get("score", 0) > 0:
+                    past.append({"game": "CantStop", "params": r["params"],
+                                 "score": r["score"], "run_type": r.get("run_type", "fast")})
     seeded = 0
     for r in past:
         trial_params = {}
@@ -304,7 +332,7 @@ if __name__ == "__main__":
 
     print("\n" + "="*60)
     print("  OVERNIGHT OPTIMIZATION RUN")
-    print("  ExplodingKittens: 40 trials, Dominion: 25, Wonders7: 25")
+    print("  ExplodingKittens: 50, Dominion: 30, Wonders7: 30, CantStop: 25")
     print("="*60)
 
     for game, trials in TRIALS.items():
