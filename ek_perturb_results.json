@@ -1,0 +1,143 @@
+[
+  {
+    "type": "checkpoint",
+    "trial": 50,
+    "params": {
+      "nCardsPerPlayer": 7,
+      "nopeOwnCards": false,
+      "ATTACK_count": 3,
+      "SKIP_count": 5,
+      "FAVOR_count": 10,
+      "SHUFFLE_count": 10,
+      "SEETHEFUTURE_count": 3,
+      "TACOCAT_count": 8,
+      "MELONCAT_count": 1,
+      "BEARDCAT_count": 3,
+      "RAINBOWCAT_count": 6,
+      "FURRYCAT_count": 2,
+      "NOPE_count": 7,
+      "DEFUSE_count": 6
+    },
+    "score": 779.5583992602138,
+    "improvements": 0,
+    "timestamp": "2026-08-31 02:57:49"
+  },
+  {
+    "type": "improvement",
+    "trial": 67,
+    "params": {
+      "nCardsPerPlayer": 7,
+      "nopeOwnCards": false,
+      "ATTACK_count": 3,
+      "SKIP_count": 5,
+      "FAVOR_count": 10,
+      "SHUFFLE_count": 10,
+      "SEETHEFUTURE_count": 6,
+      "TACOCAT_count": 8,
+      "MELONCAT_count": 5,
+      "BEARDCAT_count": 3,
+      "RAINBOWCAT_count": 6,
+      "FURRYCAT_count": 2,
+      "NOPE_count": 7,
+      "DEFUSE_count": 6
+    },
+    "score": 829.0598274296166,
+    "changed": {
+      "SEETHEFUTURE_count": 6,
+      "MELONCAT_count": 5
+    },
+    "timestamp": "2026-08-31 03:40:33"
+  },
+  {
+    "type": "checkpoint",
+    "trial": 100,
+    "params": {
+      "nCardsPerPlayer": 7,
+      "nopeOwnCards": false,
+      "ATTACK_count": 3,
+      "SKIP_count": 5,
+      "FAVOR_count": 10,
+      "SHUFFLE_count": 10,
+      "SEETHEFUTURE_count": 6,
+      "TACOCAT_count": 8,
+      "MELONCAT_count": 5,
+      "BEARDCAT_count": 3,
+      "RAINBOWCAT_count": 6,
+      "FURRYCAT_count": 2,
+      "NOPE_count": 7,
+      "DEFUSE_count": 6
+    },
+    "score": 829.0598274296166,
+    "improvements": 1,
+    "timestamp": "2026-08-31 04:34:00"
+  },
+  {
+    "type": "checkpoint",
+    "trial": 150,
+    "params": {
+      "nCardsPerPlayer": 7,
+      "nopeOwnCards": false,
+      "ATTACK_count": 3,
+      "SKIP_count": 5,
+      "FAVOR_count": 10,
+      "SHUFFLE_count": 10,
+      "SEETHEFUTURE_count": 6,
+      "TACOCAT_count": 8,
+      "MELONCAT_count": 5,
+      "BEARDCAT_count": 3,
+      "RAINBOWCAT_count": 6,
+      "FURRYCAT_count": 2,
+      "NOPE_count": 7,
+      "DEFUSE_count": 6
+    },
+    "score": 829.0598274296166,
+    "improvements": 1,
+    "timestamp": "2026-08-31 06:05:59"
+  },
+  {
+    "type": "checkpoint",
+    "trial": 200,
+    "params": {
+      "nCardsPerPlayer": 7,
+      "nopeOwnCards": false,
+      "ATTACK_count": 3,
+      "SKIP_count": 5,
+      "FAVOR_count": 10,
+      "SHUFFLE_count": 10,
+      "SEETHEFUTURE_count": 6,
+      "TACOCAT_count": 8,
+      "MELONCAT_count": 5,
+      "BEARDCAT_count": 3,
+      "RAINBOWCAT_count": 6,
+      "FURRYCAT_count": 2,
+      "NOPE_count": 7,
+      "DEFUSE_count": 6
+    },
+    "score": 829.0598274296166,
+    "improvements": 1,
+    "timestamp": "2026-08-31 07:41:02"
+  },
+  {
+    "type": "final",
+    "trial": 223,
+    "params": {
+      "nCardsPerPlayer": 7,
+      "nopeOwnCards": false,
+      "ATTACK_count": 3,
+      "SKIP_count": 5,
+      "FAVOR_count": 10,
+      "SHUFFLE_count": 10,
+      "SEETHEFUTURE_count": 6,
+      "TACOCAT_count": 8,
+      "MELONCAT_count": 5,
+      "BEARDCAT_count": 3,
+      "RAINBOWCAT_count": 6,
+      "FURRYCAT_count": 2,
+      "NOPE_count": 7,
+      "DEFUSE_count": 6
+    },
+    "score": 829.0598274296166,
+    "improvements": 1,
+    "timestamp": "2026-08-31 08:16:29"
+  }
+]
