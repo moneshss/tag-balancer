@@ -71,11 +71,11 @@ All submission JSONs are in the [`submissions/`](submissions/) folder.
 | 4 | 7wonders | 3477 | 28 Aug | + Hill-climbed 7W params |
 | 5 | dominion | 3479 | 29 Aug | + Hill-climbed Dominion params |
 | 6 | cant stop | 3505 | 30 Aug | + Hill-climbed Can't Stop (FOUR_MAX 5→4) |
-| 7 | kitten climb | 3506 ★ | 30 Aug | EK restart winner (Start 1, 810.2 avg) |
+| 7 | kitten climb | 3506 | 30 Aug | EK restart winner (Start 1, 810.2 avg) |
 | 8 | kitten climb | 3504 | 30 Aug | Same as #7, accidental double submit |
 | 9 | tacocat | 3503 | 31 Aug | Fresh hill climb EK (TACOCAT 8→6) |
-| 10 | perturbation | *pending* | 31 Aug | Pair perturbation EK (STF=6, MELON=5) |
-| 11 | combined | *pending* | 31 Aug | Perturbation + TACOCAT=6 combined |
+| 10 | perturbation | 3499 | 31 Aug | Pair perturbation EK (STF=6, MELON=5) |
+| 11 | combined | 3508 ★ | 31 Aug | Perturbation + TACOCAT=6 combined |
 | 12 | perturb | *pending* | 31 Aug | Same as #10, second submission |
 
 ---
